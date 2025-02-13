@@ -1,11 +1,19 @@
 import Image from "next/image";
-
+import NavBar from "./ui/navbar";
+import IntroPage from "./ui/intro";
+import Projects from "./ui/projects";
+import FooterPage from "./ui/footer";
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <p>Hi Devi!!</p>
-      <p>Fullstack developer</p>
-      <p>skills: react.js, node.js</p>
+    <div>
+      <main className="flex min-h-screen flex-col mt-[40px]">
+        <NavBar />
+        <IntroPage />
+        <Projects/>
+      </main>
+      <footer>
+        <FooterPage/>
+      </footer>
     </div>
   );
 }
