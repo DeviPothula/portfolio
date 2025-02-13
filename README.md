@@ -1,13 +1,13 @@
 # Portfolio Website
 
-This is a **Full Stack Developer Portfolio** built using **Next.js**. It showcases my projects, skills, experience, and contact information, providing a glimpse of my expertise in web development.
+This repository contains my personal portfolio. It showcases my projects, skills, experience, and contact information, providing a glimpse of my expertise in web development,utilizing modern technologies to create a dynamic and responsive web application.
 
 ---
 
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: Next.js, React, Tailwind CSS / CSS Modules  
+- **Frontend**: Next.js, React, Tailwind CSS
 - **Deployment**: Vercel 
 
 ---
@@ -16,13 +16,18 @@ This is a **Full Stack Developer Portfolio** built using **Next.js**. It showcas
 
 To run this project locally, follow these steps:  
 
-1. **Clone the repository:**  
-   ```bash
+```bash
+1. Clone the repository:  
    git clone <repository-url>
    cd portfolio-website
-2. **Install dependencies:**
-```bash
-  yarn install or npm install
-3. **Start the development server:**
-```bash
-  npm run dev
+
+2. Install dependencies:  
+   yarn install 
+   # or 
+   npm install
+
+3. Start the development server:  
+   npm run dev
+ 
+
+
