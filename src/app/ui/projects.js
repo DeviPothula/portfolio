@@ -31,14 +31,16 @@ const Projects = () => {
   ];
   return (
     <div className="project-container text-center mt-[50px] mx-[40px]">
-      <h1 className="font-bold text-[2rem] mb-[1.25rem]">My Recent Work</h1>
-      <p className="text-[1.25rem]">{`Here are a few past  projects I've worked on.`}</p>
+      <h1 className="font-bold text-xl md:text-2xl lg:text-3xl mb-[1.25rem]">
+        My Recent Work
+      </h1>
+      <p className=" text-[14px] md:text-[1.25rem]">{`Here are a few past  projects I've worked on.`}</p>
       <div className="flex flex-wrap mt-[40px] gap-4 justify-center items-center ">
         {projectsArr?.map((item, i) => {
           //w-[calc(50%-16px)] Ensures each item takes up one by two of the width, subtracting the gap-4 (16px) for consistent spacing
           return (
             <div
-              className={`project-info-wrapper relative w-full md:w-[calc(50%-16px)] lg:w-[calc(33.33%-16px)]   h-[250px] md:h-[300px] border-solid border-1 rounded-lg group`}
+              className={`project-info-wrapper relative w-full md:w-[calc(50%-16px)] lg:w-[calc(33.33%-16px)]  h-[250px] md:h-[300px] border-solid border-1 rounded-lg group`}
               key={i}
             >
               <Image
